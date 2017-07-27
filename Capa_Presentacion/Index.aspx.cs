@@ -4,6 +4,7 @@ using System.Web.Services;
 using System.Web;
 using System.IO;
 using Entidad.Seguridad;
+using Negocio.Seguridad;
 
 namespace Capa_Presentacion
 {
@@ -16,24 +17,47 @@ namespace Capa_Presentacion
         }
 
         [WebMethod]
-        public static string Login(User objUser)
+        public static object Login(Usuario objUsuario)
         {
-            string respuesta = "";
-            respuesta = objUser != null ? "OK" : "BAD";
-            return respuesta;
+            /*Usuario usuario = UsuarioBL.Instancia.iniciarSesion(objUsuario);
+            
+            object respuesta = "";
+            respuesta = usuario != null ? "Principal.aspx" : "BAD";
+            return new { mensaje = respuesta */
+            return "";
         }
 
         [WebMethod]
         public static object getUsers()
         {
-            List<User> lista = new List<User>();
-            lista.Add(new User() { id = 1, user = "Jorge", password = "746" });
-            lista.Add(new User() { id = 2, user = "Amelia", password = "741"});
+            List<Usuario> lista = new List<Usuario>();
+            lista.Add(new Usuario() { idusuario = 1, usuario = "Jorge", password = "746" });
+            lista.Add(new Usuario() { idusuario = 2, usuario = "Amelia", password = "741"});
             //string json = JsonConvert.SerializeObject(lista);            
             object json = new { data = lista};
 
             return json;
         }
 
+        protected void btnIngresar_Click(object sender, EventArgs e)
+        {
+            Usuario objUsuario = new Usuario() {
+                idusuario = 0,
+                usuario = Request["usuario"],
+                password = Request["password"]
+            };
+            Usuario usuario = UsuarioBL.Instancia.iniciarSesion(objUsuario);
+                        
+            if( usuario != null)
+            {
+                Session["usuario"] = usuario;
+                Response.Redirect("Principal.aspx");
+            }else
+            {
+                //poner un label
+                lblMensaje.Text = "Usuario y Password incorrectos";
+            }
+            
+        }
     }
 }

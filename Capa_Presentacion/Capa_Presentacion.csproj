@@ -150,6 +150,10 @@
       <Project>{20315ac0-35c6-4d45-97f6-20daae7246dc}</Project>
       <Name>Negocio.Anime</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Negocio.Seguridad\Negocio.Seguridad.csproj">
+      <Project>{d90262f6-ced1-4172-adfb-881874024bd7}</Project>
+      <Name>Negocio.Seguridad</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

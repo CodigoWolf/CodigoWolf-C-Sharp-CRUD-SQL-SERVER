@@ -1,0 +1,4 @@
+F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Datos.Seguridad\bin\Debug\Datos.Seguridad.dll
+F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Datos.Seguridad\bin\Debug\Datos.Seguridad.pdb
+F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Datos.Seguridad\obj\Debug\Datos.Seguridad.dll
+F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Datos.Seguridad\obj\Debug\Datos.Seguridad.pdb

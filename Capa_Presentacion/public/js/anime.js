@@ -20,7 +20,7 @@ function addAnime() {
         }
         console.log(data);
 
-        /*$.ajax({
+        $.ajax({
             method: "POST",
             url: "Principal.aspx/addAnime",
             contentType: "application/json; charset=utf-8",
@@ -28,8 +28,9 @@ function addAnime() {
             data: JSON.stringify( data )
         }).done(function (info) {
             console.log(info);
-            $(".mensaje").addClass("bg-info").html(info.d);
-        });*/
+            dtAnimes();
+            $(".mensaje").addClass("bg-info").html(info.d.mensaje);
+        });
     });
 }
 

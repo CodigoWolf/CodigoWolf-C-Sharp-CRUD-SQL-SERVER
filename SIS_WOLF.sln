@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos.Anime", "Datos.Anime\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio.Anime", "Negocio.Anime\Negocio.Anime.csproj", "{20315AC0-35C6-4D45-97F6-20DAAE7246DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio.Seguridad", "Negocio.Seguridad\Negocio.Seguridad.csproj", "{D90262F6-CED1-4172-ADFB-881874024BD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{20315AC0-35C6-4D45-97F6-20DAAE7246DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20315AC0-35C6-4D45-97F6-20DAAE7246DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20315AC0-35C6-4D45-97F6-20DAAE7246DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D90262F6-CED1-4172-ADFB-881874024BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90262F6-CED1-4172-ADFB-881874024BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90262F6-CED1-4172-ADFB-881874024BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90262F6-CED1-4172-ADFB-881874024BD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,5 +73,6 @@ Global
 		{977C624B-9EAB-40B7-921E-4A067721DF56} = {4DEA64A2-15E7-4EF9-8EAC-6EC04214E95C}
 		{6DF4F9D9-F488-48EE-BD62-A0041254E3DE} = {8656918B-C526-4C17-B9DD-A3A76A7BCDAF}
 		{20315AC0-35C6-4D45-97F6-20DAAE7246DC} = {72F893F2-4231-472D-AEA8-77A91B0CBC5B}
+		{D90262F6-CED1-4172-ADFB-881874024BD7} = {72F893F2-4231-472D-AEA8-77A91B0CBC5B}
 	EndGlobalSection
 EndGlobal

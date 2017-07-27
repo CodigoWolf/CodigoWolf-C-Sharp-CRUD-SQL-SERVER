@@ -2,3 +2,10 @@ F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Datos.Seguridad\bin\Debug\Datos.Seguridad.d
 F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Datos.Seguridad\bin\Debug\Datos.Seguridad.pdb
 F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Datos.Seguridad\obj\Debug\Datos.Seguridad.dll
 F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Datos.Seguridad\obj\Debug\Datos.Seguridad.pdb
+F:\Geo\Programacion\C#\AnimeCRUD\Datos.Seguridad\bin\Debug\Datos.Seguridad.dll
+F:\Geo\Programacion\C#\AnimeCRUD\Datos.Seguridad\bin\Debug\Datos.Seguridad.pdb
+F:\Geo\Programacion\C#\AnimeCRUD\Datos.Seguridad\bin\Debug\Entidad.Seguridad.dll
+F:\Geo\Programacion\C#\AnimeCRUD\Datos.Seguridad\bin\Debug\Entidad.Seguridad.pdb
+F:\Geo\Programacion\C#\AnimeCRUD\Datos.Seguridad\obj\Debug\Datos.Seguridad.csprojResolveAssemblyReference.cache
+F:\Geo\Programacion\C#\AnimeCRUD\Datos.Seguridad\obj\Debug\Datos.Seguridad.dll
+F:\Geo\Programacion\C#\AnimeCRUD\Datos.Seguridad\obj\Debug\Datos.Seguridad.pdb

@@ -2,9 +2,9 @@
     $("#login-form").on("submit", function(e){
         e.preventDefault();
         var data = {
-            objUser: {
-                id: 1,
-                user: $("#usuario").val(),
+            objUsuario: {
+                idusuario: 0,
+                usuario: $("#usuario").val(),
                 password: $("#password").val()
             }
         }
@@ -16,8 +16,14 @@
             dataType: "json"
         }).done(function (info) {
             //Respuesta del servidor
-            //console.log(info);
-            $(".mensaje").html( info.d );
+            if (info.d.mensaje == "BAD") {
+                $(".mensaje").html(`<b>Usuario o Password incorrectos.</b>`);
+                console.log("Usuario o Password incorrectos");
+            }
+            else{
+                window.location = info.d.mensaje;//url
+            }
+            //$(".mensaje").html( info.d );
         })
     });
 }

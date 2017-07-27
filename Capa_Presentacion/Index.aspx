@@ -28,25 +28,27 @@
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-lg-12">
-                                <form id="login-form" method="POST">
+                                <form runat="server" method="POST">
                                     <div class="form-group">
-                                        <input type="text" id="usuario" name="usuario" value="" class="form-control" placeholder="Usuario" />
+                                        <input type="text" id="usuario" name="usuario" value="" class="form-control" placeholder="Usuario" required />
                                     </div>
                                     <div class="form-group">
-                                        <input type="password" id="password" name="password" value="" class="form-control" placeholder="Contraseña" />
+                                        <input type="password" id="password" name="password" value="" class="form-control" placeholder="Contraseña" required />
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-sm-6 col-sm-offset-3">
-                                                <input type="submit" value="Ingresar" class="form-control btn btn-primary" />
+                                                <asp:Button ID="btnIngresar" class="form-control btn btn-primary" runat="server" Text="Ingresar" OnClick="btnIngresar_Click" />
+                                                <!--<input type="submit" value="Ingresar" class="form-control btn btn-primary" />-->
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-lg-6">
-                                                <div class="mensaje text-center">
-                                                </div>
+                                                <!--<p class="mensaje bg-info text-center">
+                                                </p>-->
+                                                <asp:Label ID="lblMensaje" class="bg-danger" runat="server" Text=""></asp:Label>
                                             </div>
                                         </div>
                                     </div>
@@ -82,7 +84,7 @@
         <br />
         <div class="row ocultar">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <form id="uploadForm" name="uploadForm" runat="server" method="POST" enctype="multipart/form-data">
+               
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm-6 col-sm-offset-3">
@@ -98,12 +100,12 @@
                             </div>
                         </div>
                     </div>
-                </form>
+                
             </div>
         </div>
-        <div class="mensaje">
+        <!--<div class="mensaje">
 
-        </div>
+        </div>-->
     </div>
     <!-- Latest jQuery minified -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -114,7 +116,7 @@
     <script src="public/js/global.js"></script>
     <script>
         $(function () {
-            __login();
+            //__login();
             __showUsers();
         });
     </script>

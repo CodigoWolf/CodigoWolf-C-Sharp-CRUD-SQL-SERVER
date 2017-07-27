@@ -1,0 +1,9 @@
+F:\Geo\Programacion\C#\AnimeCRUD\Negocio.Seguridad\bin\Debug\Negocio.Seguridad.dll
+F:\Geo\Programacion\C#\AnimeCRUD\Negocio.Seguridad\bin\Debug\Negocio.Seguridad.pdb
+F:\Geo\Programacion\C#\AnimeCRUD\Negocio.Seguridad\bin\Debug\Datos.Seguridad.dll
+F:\Geo\Programacion\C#\AnimeCRUD\Negocio.Seguridad\bin\Debug\Entidad.Seguridad.dll
+F:\Geo\Programacion\C#\AnimeCRUD\Negocio.Seguridad\bin\Debug\Datos.Seguridad.pdb
+F:\Geo\Programacion\C#\AnimeCRUD\Negocio.Seguridad\bin\Debug\Entidad.Seguridad.pdb
+F:\Geo\Programacion\C#\AnimeCRUD\Negocio.Seguridad\obj\Debug\Negocio.Seguridad.csprojResolveAssemblyReference.cache
+F:\Geo\Programacion\C#\AnimeCRUD\Negocio.Seguridad\obj\Debug\Negocio.Seguridad.dll
+F:\Geo\Programacion\C#\AnimeCRUD\Negocio.Seguridad\obj\Debug\Negocio.Seguridad.pdb

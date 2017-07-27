@@ -61,7 +61,7 @@ namespace Datos.Anime
         {
             SqlConnection cn = Connection.Instancia.getConnection();
             SqlCommand cmd = null;
-            SqlDataReader dr = null;
+            //SqlDataReader dr = null;
             bool respuesta = false;
 
             try

@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.Services;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Entidad.Seguridad;
 
 namespace Capa_Presentacion
 {
@@ -14,7 +15,17 @@ namespace Capa_Presentacion
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            try
+            {
+                Usuario objUsuario = (Usuario)Session["usuario"];
+                string user = objUsuario.usuario;
+                lblUsuario.Text = user;
+            }
+            catch (Exception ex)
+            {
+                Response.Redirect("Index.aspx");
+                //throw ex;
+            }
         }
 
         [WebMethod]
@@ -32,6 +43,12 @@ namespace Capa_Presentacion
             var informacion = "";
             informacion = respuesta? "Se guardaron los datos." : "No se guardaron los datos";
             return new { mensaje = informacion };
+        }
+
+        protected void btnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            Session.Remove("usuario");
+            Response.Redirect("Index.aspx");
         }
     }
 }

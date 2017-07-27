@@ -7,3 +7,8 @@ F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Entidad.Seguridad\bin\Debug\Entidad.Segurid
 F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Entidad.Seguridad\bin\Debug\Entidad.Seguridad.pdb
 F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Entidad.Seguridad\obj\Debug\Entidad.Seguridad.dll
 F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Entidad.Seguridad\obj\Debug\Entidad.Seguridad.pdb
+F:\Geo\Programacion\C#\AnimeCRUD\Entidad.Seguridad\bin\Debug\Entidad.Seguridad.dll
+F:\Geo\Programacion\C#\AnimeCRUD\Entidad.Seguridad\bin\Debug\Entidad.Seguridad.pdb
+F:\Geo\Programacion\C#\AnimeCRUD\Entidad.Seguridad\obj\Debug\Entidad.Seguridad.csprojResolveAssemblyReference.cache
+F:\Geo\Programacion\C#\AnimeCRUD\Entidad.Seguridad\obj\Debug\Entidad.Seguridad.dll
+F:\Geo\Programacion\C#\AnimeCRUD\Entidad.Seguridad\obj\Debug\Entidad.Seguridad.pdb

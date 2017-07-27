@@ -14,9 +14,13 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
-                <h1 class="text-center">Bienvenido a SIS Wolf
-                </h1>
+            <div class="col-sm-10">
+                <h1 class="text-center">Bienvenido <asp:Label ID="lblUsuario" runat="server" Text=""></asp:Label></h1>                
+            </div>
+            <div class="col-sm-2">
+                <form runat="server" method="POST">
+                <asp:Button ID="btnCerrarSesion" type="button" class="btn btn-info" runat="server" Text="Cerrar Sesión" OnClick="btnCerrarSesion_Click" />
+                </form>
             </div>
         </div>
         <div class="row">
