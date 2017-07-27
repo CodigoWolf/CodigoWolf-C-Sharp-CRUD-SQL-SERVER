@@ -1,9 +1,0 @@
-F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Datos.Anime\bin\Debug\Datos.Anime.dll
-F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Datos.Anime\bin\Debug\Datos.Anime.pdb
-F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Datos.Anime\bin\Debug\Datos.Seguridad.dll
-F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Datos.Anime\bin\Debug\Entidad.Anime.dll
-F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Datos.Anime\bin\Debug\Datos.Seguridad.pdb
-F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Datos.Anime\bin\Debug\Entidad.Anime.pdb
-F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Datos.Anime\obj\Debug\Datos.Anime.csprojResolveAssemblyReference.cache
-F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Datos.Anime\obj\Debug\Datos.Anime.dll
-F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Datos.Anime\obj\Debug\Datos.Anime.pdb
