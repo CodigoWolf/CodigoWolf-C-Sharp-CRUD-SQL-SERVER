@@ -27,7 +27,6 @@ namespace Datos.Anime
                 cn.Open();
                 cmd = new SqlCommand("listarAnimes", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                //cmd.Parameters.AddWithValue("@prm_id", idanime);
                 dr = cmd.ExecuteReader();
                 Lista = new List<AnimeE>();
                 while (dr.Read())
