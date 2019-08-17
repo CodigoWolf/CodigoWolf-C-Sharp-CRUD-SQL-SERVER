@@ -12,3 +12,8 @@ F:\Geo\Programacion\C#\AnimeCRUD\Entidad.Seguridad\bin\Debug\Entidad.Seguridad.p
 F:\Geo\Programacion\C#\AnimeCRUD\Entidad.Seguridad\obj\Debug\Entidad.Seguridad.csprojResolveAssemblyReference.cache
 F:\Geo\Programacion\C#\AnimeCRUD\Entidad.Seguridad\obj\Debug\Entidad.Seguridad.dll
 F:\Geo\Programacion\C#\AnimeCRUD\Entidad.Seguridad\obj\Debug\Entidad.Seguridad.pdb
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Entidad.Seguridad\bin\Debug\Entidad.Seguridad.dll
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Entidad.Seguridad\bin\Debug\Entidad.Seguridad.pdb
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Entidad.Seguridad\obj\Debug\Entidad.Seguridad.csproj.CoreCompileInputs.cache
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Entidad.Seguridad\obj\Debug\Entidad.Seguridad.dll
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Entidad.Seguridad\obj\Debug\Entidad.Seguridad.pdb

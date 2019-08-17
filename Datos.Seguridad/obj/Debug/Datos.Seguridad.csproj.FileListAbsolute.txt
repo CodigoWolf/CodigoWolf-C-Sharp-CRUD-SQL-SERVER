@@ -9,3 +9,12 @@ F:\Geo\Programacion\C#\AnimeCRUD\Datos.Seguridad\bin\Debug\Entidad.Seguridad.pdb
 F:\Geo\Programacion\C#\AnimeCRUD\Datos.Seguridad\obj\Debug\Datos.Seguridad.csprojResolveAssemblyReference.cache
 F:\Geo\Programacion\C#\AnimeCRUD\Datos.Seguridad\obj\Debug\Datos.Seguridad.dll
 F:\Geo\Programacion\C#\AnimeCRUD\Datos.Seguridad\obj\Debug\Datos.Seguridad.pdb
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Seguridad\bin\Debug\Datos.Seguridad.dll
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Seguridad\bin\Debug\Datos.Seguridad.pdb
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Seguridad\bin\Debug\Entidad.Seguridad.dll
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Seguridad\bin\Debug\Entidad.Seguridad.pdb
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Seguridad\obj\Debug\Datos.Seguridad.csprojAssemblyReference.cache
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Seguridad\obj\Debug\Datos.Seguridad.csproj.CoreCompileInputs.cache
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Seguridad\obj\Debug\Datos.Seguridad.csproj.CopyComplete
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Seguridad\obj\Debug\Datos.Seguridad.dll
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Seguridad\obj\Debug\Datos.Seguridad.pdb

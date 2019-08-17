@@ -64,19 +64,28 @@ namespace Datos.Anime
             bool respuesta = false;
 
             try
-            {
-                cn.Open();
+            {                
                 cmd = new SqlCommand("registrarAnime", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@nombre", objAnime.nombre);
                 cmd.Parameters.AddWithValue("@sinopsis", objAnime.sinopsis);
                 cmd.Parameters.AddWithValue("@estado", objAnime.estado);
                 cmd.Parameters.AddWithValue("@idgenero", objAnime.objGenero.idgenero);
+                cmd.Parameters.Add("@parametro1", SqlDbType.Int).Direction = ParameterDirection.Output;
+                cmd.Parameters.Add("@parametro2", SqlDbType.VarChar,100).Direction = ParameterDirection.Output;
+
+                //cmd.Parameters.Add("@parametro1", SqlDbType.Int);
+                //cmd.Parameters["@parametro1"].Direction = ParameterDirection.Output;
+
+                cn.Open();
                 int fila = cmd.ExecuteNonQuery();
                 if (fila > 0)
                 {
                     respuesta = true;
                 }
+
+                int parametro1 = Convert.ToInt32(cmd.Parameters["@parametro1"].Value);
+                string parametro2 = cmd.Parameters["@parametro2"].Value.ToString();
             }
             catch (Exception ex)
             {

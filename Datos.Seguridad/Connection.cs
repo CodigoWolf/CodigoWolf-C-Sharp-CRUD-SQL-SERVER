@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.SqlClient;
 
 namespace Datos.Seguridad
 {
@@ -17,7 +12,8 @@ namespace Datos.Seguridad
         public SqlConnection getConnection()
         {
             SqlConnection sqlConnection = new SqlConnection();
-            string connection = "Data Source=.;Initial Catalog=animewolf;Persist Security Info=True;User ID=sa;Password=123456";
+            string connection = "Data Source=.;Initial Catalog=animewolf;Integrated Security=True";
+            //string connection = "Data Source=.;Initial Catalog=animewolf;Persist Security Info=True;User ID=sa;Password=123456";
             sqlConnection.ConnectionString = connection;
             return sqlConnection;
         }

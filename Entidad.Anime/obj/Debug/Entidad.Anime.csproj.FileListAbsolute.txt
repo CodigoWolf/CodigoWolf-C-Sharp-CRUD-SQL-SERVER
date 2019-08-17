@@ -2,3 +2,8 @@ F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Entidad.Anime\bin\Debug\Entidad.Anime.dll
 F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Entidad.Anime\bin\Debug\Entidad.Anime.pdb
 F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Entidad.Anime\obj\Debug\Entidad.Anime.dll
 F:\Geo\Programacion\C#\CRUD\SIS_WOLF\Entidad.Anime\obj\Debug\Entidad.Anime.pdb
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Entidad.Anime\bin\Debug\Entidad.Anime.dll
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Entidad.Anime\bin\Debug\Entidad.Anime.pdb
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Entidad.Anime\obj\Debug\Entidad.Anime.csproj.CoreCompileInputs.cache
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Entidad.Anime\obj\Debug\Entidad.Anime.dll
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Entidad.Anime\obj\Debug\Entidad.Anime.pdb

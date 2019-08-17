@@ -18,3 +18,16 @@ F:\Geo\Programacion\C#\AnimeCRUD\Datos.Anime\bin\Debug\Entidad.Seguridad.pdb
 F:\Geo\Programacion\C#\AnimeCRUD\Datos.Anime\obj\Debug\Datos.Anime.csprojResolveAssemblyReference.cache
 F:\Geo\Programacion\C#\AnimeCRUD\Datos.Anime\obj\Debug\Datos.Anime.dll
 F:\Geo\Programacion\C#\AnimeCRUD\Datos.Anime\obj\Debug\Datos.Anime.pdb
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Anime\bin\Debug\Datos.Anime.dll
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Anime\bin\Debug\Datos.Anime.pdb
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Anime\bin\Debug\Datos.Seguridad.dll
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Anime\bin\Debug\Entidad.Anime.dll
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Anime\bin\Debug\Entidad.Seguridad.dll
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Anime\bin\Debug\Datos.Seguridad.pdb
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Anime\bin\Debug\Entidad.Anime.pdb
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Anime\bin\Debug\Entidad.Seguridad.pdb
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Anime\obj\Debug\Datos.Anime.csprojAssemblyReference.cache
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Anime\obj\Debug\Datos.Anime.csproj.CoreCompileInputs.cache
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Anime\obj\Debug\Datos.Anime.csproj.CopyComplete
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Anime\obj\Debug\Datos.Anime.dll
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Datos.Anime\obj\Debug\Datos.Anime.pdb
