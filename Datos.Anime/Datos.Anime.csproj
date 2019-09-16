@@ -43,6 +43,7 @@
     <Compile Include="AnimeDAO.cs" />
     <Compile Include="EpisodioDAO.cs" />
     <Compile Include="GeneroDAO.cs" />
+    <Compile Include="HistorialAnimeDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

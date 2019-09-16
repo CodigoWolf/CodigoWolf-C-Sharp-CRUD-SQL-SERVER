@@ -14,7 +14,7 @@ namespace Capa_Presentacion
         protected void Page_Load(object sender, EventArgs e)
         {
             
-        }
+        }        
 
         [WebMethod]
         public static object Login(Usuario objUsuario)

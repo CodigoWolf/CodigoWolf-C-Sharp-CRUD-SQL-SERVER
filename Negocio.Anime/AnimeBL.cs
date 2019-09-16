@@ -1,10 +1,6 @@
 ﻿using Datos.Anime;
 using Entidad.Anime;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Negocio.Anime
 {
@@ -21,7 +17,17 @@ namespace Negocio.Anime
         }
         public bool guardar(AnimeE objAnime)
         {
-            return AnimeDAO.Instancia.guardar(objAnime);
+            bool respuesta = false;
+            HistorialAnime objHistorial = null;
+            respuesta = AnimeDAO.Instancia.guardar(objAnime);
+            if (respuesta)
+            {
+                objHistorial = new HistorialAnime();
+                objHistorial.idanime = objAnime.idanime;
+                objHistorial.mensaje = objAnime.nombre;
+            }            
+
+            return HistorialAnimeDAO.Instancia.guardar( objHistorial );
         }
     }
 }

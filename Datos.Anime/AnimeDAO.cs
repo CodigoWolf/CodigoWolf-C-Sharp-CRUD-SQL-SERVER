@@ -60,7 +60,6 @@ namespace Datos.Anime
         {
             SqlConnection cn = Connection.Instancia.getConnection();
             SqlCommand cmd = null;
-            //SqlDataReader dr = null;
             bool respuesta = false;
 
             try
@@ -73,10 +72,7 @@ namespace Datos.Anime
                 cmd.Parameters.AddWithValue("@idgenero", objAnime.objGenero.idgenero);
                 cmd.Parameters.Add("@parametro1", SqlDbType.Int).Direction = ParameterDirection.Output;
                 cmd.Parameters.Add("@parametro2", SqlDbType.VarChar,100).Direction = ParameterDirection.Output;
-
-                //cmd.Parameters.Add("@parametro1", SqlDbType.Int);
-                //cmd.Parameters["@parametro1"].Direction = ParameterDirection.Output;
-
+                
                 cn.Open();
                 int fila = cmd.ExecuteNonQuery();
                 if (fila > 0)
@@ -84,12 +80,12 @@ namespace Datos.Anime
                     respuesta = true;
                 }
 
-                int parametro1 = Convert.ToInt32(cmd.Parameters["@parametro1"].Value);
-                string parametro2 = cmd.Parameters["@parametro2"].Value.ToString();
+                objAnime.idanime = Convert.ToInt32(cmd.Parameters["@parametro1"].Value);
+                objAnime.nombre = cmd.Parameters["@parametro2"].Value.ToString();      
+
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
             finally
@@ -98,6 +94,7 @@ namespace Datos.Anime
             }
 
             return respuesta;
+            
         }
     }
 }

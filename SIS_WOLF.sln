@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Capa_Entidades", "Capa_Entidades", "{4DEA64A2-15E7-4EF9-8EAC-6EC04214E95C}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio.Anime", "Negocio.Anime\Negocio.Anime.csproj", "{20315AC0-35C6-4D45-97F6-20DAAE7246DC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio.Seguridad", "Negocio.Seguridad\Negocio.Seguridad.csproj", "{D90262F6-CED1-4172-ADFB-881874024BD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reportes", "Reportes\Reportes.csproj", "{0BABFD2D-97D5-4BB9-9023-5EE774BD01A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{D90262F6-CED1-4172-ADFB-881874024BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D90262F6-CED1-4172-ADFB-881874024BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D90262F6-CED1-4172-ADFB-881874024BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BABFD2D-97D5-4BB9-9023-5EE774BD01A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BABFD2D-97D5-4BB9-9023-5EE774BD01A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BABFD2D-97D5-4BB9-9023-5EE774BD01A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BABFD2D-97D5-4BB9-9023-5EE774BD01A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,5 +80,8 @@ Global
 		{6DF4F9D9-F488-48EE-BD62-A0041254E3DE} = {8656918B-C526-4C17-B9DD-A3A76A7BCDAF}
 		{20315AC0-35C6-4D45-97F6-20DAAE7246DC} = {72F893F2-4231-472D-AEA8-77A91B0CBC5B}
 		{D90262F6-CED1-4172-ADFB-881874024BD7} = {72F893F2-4231-472D-AEA8-77A91B0CBC5B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F93A7DD-DD30-4762-9633-B93A3D1490E1}
 	EndGlobalSection
 EndGlobal

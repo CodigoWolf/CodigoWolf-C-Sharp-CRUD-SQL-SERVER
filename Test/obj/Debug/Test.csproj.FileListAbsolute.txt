@@ -1,0 +1,12 @@
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Test\bin\Debug\Test.exe.config
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Test\bin\Debug\Test.exe
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Test\bin\Debug\Test.pdb
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Test\bin\Debug\Datos.Seguridad.dll
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Test\bin\Debug\Entidad.Seguridad.dll
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Test\bin\Debug\Datos.Seguridad.pdb
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Test\bin\Debug\Entidad.Seguridad.pdb
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Test\obj\Debug\Test.csprojAssemblyReference.cache
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Test\obj\Debug\Test.csproj.CopyComplete
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Test\obj\Debug\Test.exe
+D:\GEOVANNY\PROGRAMACION\CSHARE\CodigoWolf-C-Sharp-CRUD-SQL-SERVER\Test\obj\Debug\Test.pdb

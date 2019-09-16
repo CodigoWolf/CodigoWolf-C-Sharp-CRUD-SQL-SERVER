@@ -7,7 +7,7 @@
                 usuario: $("#usuario").val(),
                 password: $("#password").val()
             }
-        }
+        };
         $.ajax({
             method: "POST",
             url: "Index.aspx/Login",
@@ -16,7 +16,7 @@
             dataType: "json"
         }).done(function (info) {
             //Respuesta del servidor
-            if (info.d.mensaje == "BAD") {
+            if (info.d.mensaje === "BAD") {
                 $(".mensaje").html(`<b>Usuario o Password incorrectos.</b>`);
                 console.log("Usuario o Password incorrectos");
             }

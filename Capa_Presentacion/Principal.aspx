@@ -85,6 +85,11 @@
             <div class="col sm-12">
                 <!--<button type="button" id="boton" class="btn btn-primary">Test Anime</button>-->
                 <button type="button" id="modalanime" data-target='#modalregistrar' data-toggle='modal'  class="btn btn-success">Agregar Anime</button>
+            
+                <button type="button" id="exportar" class="btn btn-primary">
+                    Exportar
+                </button>
+            
             </div>
             <br />
             <div class="col-sm-12">
@@ -115,5 +120,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.10.15/datatables.min.js"></script>
     <script src="public/js/anime.js"></script>
+    <script>
+        
+    </script>
 </body>
 </html>

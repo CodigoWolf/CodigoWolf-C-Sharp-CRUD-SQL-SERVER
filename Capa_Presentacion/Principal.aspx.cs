@@ -1,8 +1,10 @@
 ﻿using Entidad.Anime;
 using Entidad.Seguridad;
 using Negocio.Anime;
+using Reportes;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Web.Services;
 
 namespace Capa_Presentacion
@@ -11,6 +13,12 @@ namespace Capa_Presentacion
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string opcion = Convert.ToString(Request.QueryString["exportar"]);
+            if (opcion != null)
+            {
+                ExportarAnimePDF();
+            }
+
             try
             {
                 Usuario objUsuario = (Usuario)Session["usuario"];
@@ -21,6 +29,26 @@ namespace Capa_Presentacion
             {
                 Response.Redirect("Index.aspx");
                 //throw ex;
+            }
+        }
+
+        public void ExportarAnimePDF()
+        {
+            var logica = new AnimeBL();
+            var lista = logica.listarAnimes();
+            var ms = new MemoryStream();
+            //Hace vinculación con el reporte de DevExpress
+            Geova reporte = new Geova();
+            reporte.DataSource = lista;
+            using (ms)
+            {
+                reporte.ExportToPdf(ms);
+                Response.Clear();
+                Response.ClearContent();
+                Response.AddHeader("Content-Disposition", string.Format("attachment; filename=RR_HH - " + lista[0].nombre + ".pdf"));
+                Response.AddHeader("custom", string.Format(lista[0].nombre + ".pdf"));
+                Response.BinaryWrite(ms.GetBuffer());
+                Response.ContentType = "application/pdf";
             }
         }
 

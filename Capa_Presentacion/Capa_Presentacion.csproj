@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,6 +44,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.XtraReports.v19.1, Version=19.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
       <Private>True</Private>
@@ -153,6 +155,10 @@
     <ProjectReference Include="..\Negocio.Seguridad\Negocio.Seguridad.csproj">
       <Project>{d90262f6-ced1-4172-adfb-881874024bd7}</Project>
       <Name>Negocio.Seguridad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Reportes\Reportes.csproj">
+      <Project>{0babfd2d-97d5-4bb9-9023-5ee774bd01a9}</Project>
+      <Name>Reportes</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

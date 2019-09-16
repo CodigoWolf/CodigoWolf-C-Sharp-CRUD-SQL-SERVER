@@ -1,8 +1,23 @@
 ﻿$(function () {
     //alert("Funcionando Jquery");
     addAnime();
-    dtAnimes();
+    dtAnimes();    
+    exportarAnime();    
 });
+
+function exportarAnime() {
+    $("#exportar").on("click", function () {
+        var id = 1;
+        
+        //var link = document.createElement("a");
+        //link.innerHTML = ".";
+        //link.href = "Principal.aspx?exportar=" + id;
+        //link.target = "_blank";
+        //link.click();
+        window.location.href = "Principal.aspx?exportar=" + id;
+        //link = null;
+    });
+}
 
 function addAnime() {
     $("#registrar-anime").on("click", function (e) {
@@ -18,7 +33,7 @@ function addAnime() {
                 }
             }
         }
-        console.log(data);
+        
 
         $.ajax({
             method: "POST",
